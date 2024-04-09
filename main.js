@@ -20,7 +20,7 @@ db.connect((err) => {
     console.log("Tietokantayhteys luotu...");
   }
 });
-
+console.log("Moi");
 // Palauttaa kaikki autot Json muodossa
 app.get("/autot", (req, res) => {
   const query = "SELECT * FROM auto";
